@@ -3,7 +3,7 @@ from json import dumps, loads
 
 r = redis.Redis(host='localhost', port=6379, db=0)
 
-some_list = ["lula", "bolsonaro"]
+some_list = ["B07F5N31FN", "B0BLP7G9HX", "B08PG5F3KV", "B07DQPTKH3", "B076HY1273"]
 
 r.set('amazon_pids', dumps(some_list)) # dumps: convert array to string 
 
