@@ -8,3 +8,6 @@ pc:
 
 redis:
 	docker compose up redis -d
+
+a:
+	python main.py
